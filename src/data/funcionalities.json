@@ -36,20 +36,14 @@
     "proyecto_id": 2
   },
   {
-    "id": 1,
-    "description": "Navegación de barra de pestañas",
-    "logo": 7,
-    "proyecto_id": 3
-  },
-  {
     "id": 7,
-    "description": "Ejercicios prácticos",
+    "description": "Edición de perfil",
     "logo": 7,
     "proyecto_id": 3
   },
   {
     "id": 8,
-    "description": "Módulos de aprendizaje",
+    "description": "Ranking",
     "logo": 7,
     "proyecto_id": 3
   }
