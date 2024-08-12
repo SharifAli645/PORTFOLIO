@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nombre": "Leveling",
+        "descripcion": "Esta plataforma web está enfocada en el aprendizaje autodirigido del lenguaje de programación Python. Los usuarios pueden registrarse e iniciar sesión utilizando sus cuentas de Google (OAuth). La aplicación presenta un curso estructurado por niveles, con módulos que incluyen teoría y ejercicios prácticos. El acceso a niveles superiores está condicionado al progreso del usuario, garantizando un aprendizaje secuencial y adecuado a su ritmo. El frontend se desarrolló con React, el backend con Django y la base de datos se diseñó utilizando SQL. Además, una API gestiona el progreso del curso, los niveles, subniveles y ejercicios, brindando una experiencia educativa completa y eficiente."
+    },
+    {
+        "id": 2,
+        "nombre": "Galery",
+        "descripcion": "Desarrollada para la organización y visualización de imágenes y videos almacenados en dispositivos móviles, esta aplicación permite a los usuarios explorar sus archivos multimedia organizados por carpetas. Los usuarios pueden seleccionar directamente un recurso o deslizarse entre los elementos de un álbum. La aplicación ofrece la opción de marcar álbumes como favoritos, facilitando el acceso rápido a sus contenidos desde la pantalla principal. Además, incluye una opción para cambiar el tema de la aplicación entre modo oscuro y claro, proporcionando una experiencia de usuario personalizada. El frontend se desarrolló con React Native, mientras que el backend se construyó utilizando diversas librerías especializadas."
+    },
+    {
+        "id": 3,
+        "nombre": "Prolingo",
+        "descripcion": "Esta aplicación móvil está diseñada para facilitar el aprendizaje del idioma inglés. Cuenta con tres pantallas principales que permiten al usuario gestionar sus datos personales, acceder a los módulos de aprendizaje y visualizar el ranking de usuarios. La interfaz intuitiva y fácil de usar ofrece una experiencia de aprendizaje fluida y personalizada, permitiendo a los usuarios seguir su progreso y comparar sus avances con otros."
+    }
+]

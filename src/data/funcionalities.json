@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "description": "Bloque teórico",
+    "logo": 7,
+    "proyecto_id": 1
+  },
+  {
+    "id": 2,
+    "description": "Ejercicios prácticos",
+    "logo": 7,
+    "proyecto_id": 1
+  },
+  {
+    "id": 3,
+    "description":"Módulos de aprendizaje",
+    "logo": 7,
+    "proyecto_id": 1
+  },
+  {
+    "id": 4,
+    "description": "Imágenes y videos agrupados por carpeta",
+    "logo": 7,
+    "proyecto_id": 2
+  },
+  {
+    "id": 5,
+    "description": "Visualizar imagen y reproducir video en pantalla completa",
+    "logo": 7,
+    "proyecto_id": 2
+  },
+  {
+    "id": 6,
+    "description": "Cambiar tema de la aplicación (modo oscuro - modo claro)",
+    "logo": 7,
+    "proyecto_id": 2
+  },
+  {
+    "id": 1,
+    "description": "Navegación de barra de pestañas",
+    "logo": 7,
+    "proyecto_id": 3
+  },
+  {
+    "id": 7,
+    "description": "Ejercicios prácticos",
+    "logo": 7,
+    "proyecto_id": 3
+  },
+  {
+    "id": 8,
+    "description": "Módulos de aprendizaje",
+    "logo": 7,
+    "proyecto_id": 3
+  }
+]

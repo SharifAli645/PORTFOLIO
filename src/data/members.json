@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "firstname": "Sharif Abuhadba",
+    "lastname": "Abuhadba",
+    "github":"",
+    "linkedin":"",
+    "country":"peru"
+  },
+  {
+    "id": 2,
+    "firstname": "Kevin Espinoza",
+    "lastname": "Espinoza",
+    "github":"",
+    "linkedin":"",
+    "country":"peru"
+  },
+  {
+    "id": 3,
+    "firstname": "Diego",
+    "lastname": "",
+    "github":"",
+    "linkedin":"",
+    "country":"argentina"
+  },
+  {
+    "id": 4,
+    "firstname": "Melisa Gress",
+    "lastname": "",
+    "github":"",
+    "linkedin":"",
+    "country":"argentina"
+  },
+  {
+    "id": 5,
+    "firstname": "Mateo Chutt",
+    "lastname": "Chutt",
+    "github":"",
+    "linkedin":"",
+    "country":"argentina"
+  },
+  {
+    "id": 6,
+    "firstname": "Yoel",
+    "lastname": "Rodriguez",
+    "github":"",
+    "linkedin":"",
+    "country":"argentina"
+  }
+]

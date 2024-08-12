@@ -1,0 +1,170 @@
+{
+    "proyects": [
+        {
+            "slides": [
+                {
+                    "logo": "url",
+                    "name": "Proyect name 1",
+                    "description": "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat",
+                    "stack": [
+                        {
+                            "technology": "python",
+                            "image": "url"
+                        },
+                        {
+                            "technology": "react",
+                            "image": "url"
+                        }
+                    ]
+                },
+                {
+                    "functionalities": [
+                        {
+                            "description": "functionality 1",
+                            "image": "url"
+                        },
+                        {
+                            "description": "functionality 2",
+                            "image": "url"
+                        }
+                    ]
+                },
+                {
+                    "roles": [
+                        {
+                            "frontend": [
+                                {
+                                    "name": "José",
+                                    "lastname": "Rojas",
+                                    "github": "url",
+                                    "linkedin": "url",
+                                    "country": "url"
+                                }
+                            ],
+                            "backend": [
+                                {
+                                    "name": "Maria",
+                                    "lastname": "Smith",
+                                    "github": "url",
+                                    "linkedin": "url",
+                                    "country": "url"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slides": [
+                {
+                    "logo": "url",
+                    "name": "Proyect name 1",
+                    "description": "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat",
+                    "stack": [
+                        {
+                            "technology": "python",
+                            "image": "url"
+                        },
+                        {
+                            "technology": "react",
+                            "image": "url"
+                        }
+                    ]
+                },
+                {
+                    "functionalities": [
+                        {
+                            "description": "functionality 1",
+                            "image": "url"
+                        },
+                        {
+                            "description": "functionality 2",
+                            "image": "url"
+                        }
+                    ]
+                },
+                {
+                    "roles": [
+                        {
+                            "frontend": [
+                                {
+                                    "name": "José",
+                                    "lastname": "Rojas",
+                                    "github": "url",
+                                    "linkedin": "url",
+                                    "country": "url"
+                                }
+                            ],
+                            "backend": [
+                                {
+                                    "name": "Maria",
+                                    "lastname": "Smith",
+                                    "github": "url",
+                                    "linkedin": "url",
+                                    "country": "url"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slides": [
+                {
+                    "logo": "url",
+                    "name": "Proyect name 1",
+                    "description": "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat",
+                    "stack": [
+                        {
+                            "technology": "python",
+                            "image": "url"
+                        },
+                        {
+                            "technology": "react",
+                            "image": "url"
+                        }
+                    ]
+                },
+                {
+                    "functionalities": [
+                        {
+                            "description": "functionality 1",
+                            "image": "url"
+                        },
+                        {
+                            "description": "functionality 2",
+                            "image": "url"
+                        }
+                    ]
+                },
+                {
+                    "roles": [
+                        {
+                            "frontend": [
+                                {
+                                    "name": "José",
+                                    "lastname": "Rojas",
+                                    "github": "url",
+                                    "linkedin": "url",
+                                    "country": "url"
+                                }
+                            ],
+                            "backend": [
+                                {
+                                    "name": "Maria",
+                                    "lastname": "Smith",
+                                    "github": "url",
+                                    "linkedin": "url",
+                                    "country": "url"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+        
+    ]
+}

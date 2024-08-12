@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "react native",
+    "logo": 1
+  },
+  {
+    "id": 2,
+    "name": "nestjs",
+    "logo": 1
+  },
+  {
+    "id": 3,
+    "name": "docker",
+    "logo": 1
+  },
+  {
+    "id": 4,
+    "name": "tailwind",
+    "logo": 1
+  },
+  {
+    "id": 5,
+    "name": "django",
+    "logo": 1
+  },
+  {
+    "id": 6,
+    "name": "sql",
+    "logo": 1
+  },
+  {
+    "id": 7,
+    "name": "react",
+    "logo": 1
+  }
+]

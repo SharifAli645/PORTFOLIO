@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "rol": "project manager"
+  },
+  {
+    "id": 2,
+    "rol": "backend"
+  },
+  {
+    "id": 3,
+    "rol": "frontend"
+  },
+  {
+    "id": 4,
+    "rol": "designer UI"
+  },
+  {
+    "id": 4,
+    "rol": "QA automático"
+  },
+  {
+    "id": 5,
+    "rol": "QA manuals"
+  }
+]
