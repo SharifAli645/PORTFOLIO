@@ -37,7 +37,7 @@ export default function Stack() {
                 <p className='bg-green-300 p-2 rounded-lg text-xl'>Tecnologías</p>
             </div>
             <div className='bg-green-500 flex flex-[4] rounded-lg justify-around'>
-                {stack.map(item => <StackItem item={item} />)}
+                {stack.map((item, index) => <StackItem item={item} key={index}/>)}
             </div>
         </div>
     )

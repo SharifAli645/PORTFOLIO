@@ -104,7 +104,7 @@ export default function Carousel({ data,
                 <div className='mx-10 w-60'>
                   <h3 className='text-center text-xl font-bold border-4 rounded-xl py-1 border-black my-4'>Stack</h3>
                   {stack.map((item: any, index: number) => (
-                    <div className='flex justify-center items-center font-bold text-lg'>
+                    <div className='flex justify-center items-center font-bold text-lg' key={index}>
                       <Image
                         src={item.id === 1 || item.id === 7 ? react
                           : item.id === 2 ? nest
@@ -157,7 +157,7 @@ export default function Carousel({ data,
               <h2 className='text-center bg-green-400 w-min px-8 py-2 text-2xl my-9 rounded-2xl  '>Team</h2>
               <div className='flex flex-row  justify-evenly text-lg'>
                 {rol.map((item: any, index: number) => (
-                  <div className='mx-10'>
+                  <div className='mx-10' key={index}>
                     <h3 className='text-center text-xl font-bold border-4 rounded-xl py-1 px-3 border-black my-4'>{ item.rol}</h3>
                     <p>{member.find(obj => obj.id === p_m_rol.find(obj => obj.rol_id === item.id).miembro_id).firstname}</p>
                     <div className='flex flex-row items-center justify-evenly'>
