@@ -7,7 +7,7 @@ import django from '../../icons/stack/django.png'
 import css from '../../icons/stack/css.png'
 
 
-function StackItem({item}) {
+function StackItem({item}:{item:any}) {
     return (
         <div className="flex flex-col justify-center items-center px-5 gap-3 hover:bg-yellow-500 cursor-default my-3 rounded-2xl">
             <div>

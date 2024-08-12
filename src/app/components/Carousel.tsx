@@ -39,26 +39,36 @@ export default function Carousel({ data,
   roles,
   p_stacks,
   p_m_roles,
-  number }) {
+  number }: {
+    data: any;
+    proyects: any;
+    stacks: any;
+    funcionalities: any;
+    members: any;
+    roles: any;
+    p_stacks: any;
+    p_m_roles: any;
+    number:number
+  }) {
 
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => { setSlide(slide == data.length - 1 ? 0 : slide + 1); }
   const prevSlide = () => { setSlide(slide == 0 ? data.length - 1 : slide - 1); }
 
-  const proyect = proyects.find(obj => obj.id === number + 1);
-  const p_stack = p_stacks.filter(obj => obj.proyecto_id === number + 1);
-  const stack = stacks.filter(obj =>
-    p_stack.some(item => item.stack_id === obj.id)
+  const proyect = proyects.find((obj:any) => obj.id === number + 1);
+  const p_stack = p_stacks.filter((obj: any) => obj.proyecto_id === number + 1);
+  const stack = stacks.filter((obj: any) =>
+    p_stack.some((item:any) => item.stack_id === obj.id)
   );
-  const p_m_rol = p_m_roles.filter(obj => obj.proyecto_id === number + 1);
-  const member = members.filter(obj =>
-    p_m_rol.some(item => item.miembro_id === obj.id)
+  const p_m_rol = p_m_roles.filter((obj: any) => obj.proyecto_id === number + 1);
+  const member = members.filter((obj: any) =>
+    p_m_rol.some((item: any) => item.miembro_id === obj.id)
   );
-  const rol = roles.filter(obj => 
-    p_m_rol.some(item => item.rol_id === obj.id)
+  const rol = roles.filter((obj: any) => 
+    p_m_rol.some((item: any) => item.rol_id === obj.id)
   )
-  const funcionality = funcionalities.filter(obj => obj.proyecto_id === number + 1);
+  const funcionality = funcionalities.filter((obj: any) => obj.proyecto_id === number + 1);
 
   console.log("array de member\n", member)
   console.log("array de rol\n", rol)
@@ -159,7 +169,7 @@ export default function Carousel({ data,
                 {rol.map((item: any, index: number) => (
                   <div className='mx-10' key={index}>
                     <h3 className='text-center text-xl font-bold border-4 rounded-xl py-1 px-3 border-black my-4'>{ item.rol}</h3>
-                    <p>{member.find(obj => obj.id === p_m_rol.find(obj => obj.rol_id === item.id).miembro_id).firstname}</p>
+                    <p>{member.find((obj: any) => obj.id === p_m_rol.find((obj: any) => obj.rol_id === item.id).miembro_id).firstname}</p>
                     <div className='flex flex-row items-center justify-evenly'>
                       <Image
                         src={item.country === 'peru' ? peru : item.country === 'argentina'? argentina : argentina}
