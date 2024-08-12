@@ -32,20 +32,20 @@ function Presentation() {
                 bases de datos.</p>
 
             <div className='flex justify-evenly text-gray-500 '>
-                <a href='www.linkedin.com/in/sh-abh-bts' target='_blank'>
+                <a href='https://www.linkedin.com/in/sh-abh-bts' target='_blank'>
                     <div className='flex items-center flex-col cursor-pointer hover:text-gray-800 hover:font-bold'>
                         <Image src={linkedin} alt='linkedin' height={30} />
                         <p>Linkedin</p>
                     </div>
                 </a>
-                <a href='www.google.com' target='_blank' >
+                <a href='https://www.google.com' target='_blank' >
                     <div className='flex items-center flex-col cursor-pointer hover:text-gray-800 hover:font-bold'>
                         <Image src={gmail} alt='gmail' height={30} />
                         <p>Gmail</p>
 
                     </div>
                 </a>
-                <a href='https://github.com/SharifAli645?tab=repositories' target='_blank'>
+                <a href='https://github.com/SharifAli645' target='_blank'>
                     <div className='flex items-center flex-col cursor-pointer hover:text-gray-800 hover:font-bold'>
                         <Image src={github} alt='github' height={30} />
                         <p>Github</p>
