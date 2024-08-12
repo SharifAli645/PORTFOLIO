@@ -30,6 +30,7 @@ import gy_2 from '@/images/proyects/galery/sc2.jpg'
 import gy_3 from '@/images/proyects/galery/sc3.jpg'
 import pg_1 from '@/images/proyects/prolingo/prolingo_1.png'
 import pg_2 from '@/images/proyects/prolingo/prolingo_2.png'
+import ToolTip from './ToolTip';
 
 
 
@@ -149,7 +150,8 @@ export default function Carousel({ data,
                 {funcionality.map((item: any, index: number) => (
                   <>
                     <div className='mx-10'>
-                      <h3 className='text-center text-xl font-bold'>{item.description}</h3>
+                      <h3 className='text-center text-xl font-bold'>{"Funcionalidad " + (index + 1) }</h3>
+                      <ToolTip tooltip={item.description}>
                       <Image
                         src={item.id === 1 ? lv_3
                           : item.id === 2 ? lv_1
@@ -160,9 +162,10 @@ export default function Carousel({ data,
                                     : item.id === 7 ? pg_2
                                       : item.id === 8 ? pg_1
                                         : foto}
-                        alt='arrow' width={300} height={850}
+                        alt='arrow' width={250} height={700}
                         onClick={prevSlide}
-                      />
+                        />
+                      </ToolTip>
                     </div>
 
                   </>
@@ -183,7 +186,7 @@ export default function Carousel({ data,
                       <Image
                         src={item.country === 'peru' ? peru : item.country === 'argentina' ? argentina : argentina}
                         alt='arrow' height={40}
-                      />
+                        />
                       <Image src={linkedin} alt='linkedin' width={35} />
                     </div>
                   </div>
